@@ -1,0 +1,16 @@
+[package]
+name = "tupi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ammonia = "4.0.0"
+ariadne = "0.4.1"
+chumsky = { version = "1.0.0-alpha.7", features = ["nightly"] }
+ecow = "0.2.2"
+lazy_static = "1.5.0"
+miette = "7.2.0"
+mlua = { version = "0.9.9", features = ["lua54", "vendored"] }
+tagu = "0.1.6"
+thiserror = "1.0.61"
+unicode_categories = "0.1.1"
